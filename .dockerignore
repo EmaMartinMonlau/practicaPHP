@@ -1,0 +1,4 @@
+# Archivo: .dockerignore
+# Evitamos enviar secretos al contexto de construcción de la imagen de Docker
+docker/.env
+docker/data/

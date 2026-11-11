@@ -1,0 +1,58 @@
+name: asociacion-blend-multiservicio
+
+services:
+  # 1. SERVICIO WEB (Servidor Apache + PHP personalizado)
+  web:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    ports:
+      - "127.0.0.1:8091:80" # El nuevo puerto 8091
+    volumes:
+      - ./src:/var/www/html
+      - ./data:/var/www/data
+    environment:
+      # Inyectamos los secretos del .env al interior de PHP
+      - DB_USER=${DB_USER}
+      - DB_PASSWORD=${DB_PASSWORD}
+    depends_on:
+      postgres:
+        condition: service_healthy
+      mariadb:
+        condition: service_healthy
+
+  # 2. SERVICIO POSTGRESQL (Base de datos 1)
+  postgres:
+    image: postgres:17-bookworm
+    environment:
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_DB: blend_pg
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DB_USER} -d blend_pg"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  # 3. SERVICIO MARIADB (Base de datos 2)
+  mariadb:
+    image: mariadb:11.4
+    environment:
+      MARIADB_USER: ${DB_USER}
+      MARIADB_PASSWORD: ${DB_PASSWORD}
+      MARIADB_DATABASE: blend_maria
+      MARIADB_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}
+    volumes:
+      - maria_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+# Discos duros virtuales para que los datos no se borren al apagar
+volumes:
+  pg_data:
+  maria_data:
