@@ -1,0 +1,170 @@
+[
+    {
+        "id": 0,
+        "title": "Indie Rock Dreamy",
+        "artist": "Alex Morgan",
+        "audio": "canciones/alex-morgan-indie-rock-dreamy-537459.mp3",
+        "cover": "imagenes/portadas/id0.png",
+        "duration": 188
+    },
+    {
+        "id": 1,
+        "title": "Pop Rock",
+        "artist": "Alex Grohl",
+        "audio": "canciones/alexgrohl-pop-rock-546210.mp3",
+        "cover": "imagenes/portadas/id1.png",
+        "duration": 131
+    },
+    {
+        "id": 2,
+        "title": "Calm Calm Music",
+        "artist": "Andriig",
+        "audio": "canciones/andriig-calm-calm-music-604047.mp3",
+        "cover": "imagenes/portadas/id2.png",
+        "duration": 137
+    },
+    {
+        "id": 3,
+        "title": "Club Music",
+        "artist": "Aurec",
+        "audio": "canciones/aurec-club-music-591485.mp3",
+        "cover": "imagenes/portadas/id3.png",
+        "duration": 198
+    },
+    {
+        "id": 4,
+        "title": "Action Rock Version",
+        "artist": "Bombinsound",
+        "audio": "canciones/bombinsound-action-rock-rock-music-version-4-544102.mp3",
+        "cover": "imagenes/portadas/id4.png",
+        "duration": 44
+    },
+    {
+        "id": 5,
+        "title": "Inspiring Motivation Rock",
+        "artist": "Delosound",
+        "audio": "canciones/delosound-rock-inspiring-motivation-rock-456266.mp3",
+        "cover": "imagenes/portadas/id5.png",
+        "duration": 202
+    },
+    {
+        "id": 6,
+        "title": "Punjabi Song Bhangra",
+        "artist": "Echoes of Lumen",
+        "audio": "canciones/echoes_of_lumen-punjabi-song-bhangra-dance-energy-589272.mp3",
+        "cover": "imagenes/portadas/id6.png",
+        "duration": 67
+    },
+    {
+        "id": 7,
+        "title": "Rock Pop Music",
+        "artist": "Jonas Blakewood",
+        "audio": "canciones/jonasblakewood-rock-pop-rock-pop-music-569740.mp3",
+        "cover": "imagenes/portadas/id7.png",
+        "duration": 173
+    },
+    {
+        "id": 8,
+        "title": "Ashtrays and Echoes",
+        "artist": "Kaazoom",
+        "audio": "canciones/kaazoom-ashtrays-and-echoes-trip-hop-song-about-breaking-up-female-vocal-457549.mp3",
+        "cover": "imagenes/portadas/id8.png",
+        "duration": 191
+    },
+    {
+        "id": 9,
+        "title": "Whistling Afterburn",
+        "artist": "Kaazoom",
+        "audio": "canciones/kaazoom-whistling-afterburn-full-track-544174.mp3",
+        "cover": "imagenes/portadas/id9.png",
+        "duration": 153
+    },
+    {
+        "id": 10,
+        "title": "Dark Synthwave",
+        "artist": "Kulakovka",
+        "audio": "canciones/kulakovka-dark-synthwave-614898.mp3",
+        "cover": "imagenes/portadas/id10.png",
+        "duration": 119
+    },
+    {
+        "id": 11,
+        "title": "Playtime",
+        "artist": "Kulakovka",
+        "audio": "canciones/kulakovka-playtime-614043.mp3",
+        "cover": "imagenes/portadas/id11.png",
+        "duration": 116
+    },
+    {
+        "id": 12,
+        "title": "Good Morning",
+        "artist": "Lafrey Music",
+        "audio": "canciones/lafrey_music-good-morning-506426.mp3",
+        "cover": "imagenes/portadas/id12.png",
+        "duration": 151
+    },
+    {
+        "id": 13,
+        "title": "Pop Punk Rock",
+        "artist": "Lnplusmusic",
+        "audio": "canciones/lnplusmusic-pop-punk-rock-music-469456.mp3",
+        "cover": "imagenes/portadas/id13.png",
+        "duration": 100
+    },
+    {
+        "id": 14,
+        "title": "I Cry Out To The Most High",
+        "artist": "Misselle",
+        "audio": "canciones/misselle-i-cry-out-to-the-most-high-psalm-57-579902.mp3",
+        "cover": "imagenes/portadas/id14.png",
+        "duration": 245
+    },
+    {
+        "id": 15,
+        "title": "Garage Rock",
+        "artist": "Octosound",
+        "audio": "canciones/octosound-garage-rock-563899.mp3",
+        "cover": "imagenes/portadas/id15.png",
+        "duration": 88
+    },
+    {
+        "id": 16,
+        "title": "Cozy Lo-Fi Background",
+        "artist": "Petrushkasound",
+        "audio": "canciones/petrushkasound-cozy-lo-fi-background-546156.mp3",
+        "cover": "imagenes/portadas/id16.png",
+        "duration": 147
+    },
+    {
+        "id": 17,
+        "title": "Summer Pop",
+        "artist": "The Mountain",
+        "audio": "canciones/the_mountain-summer-pop-593072.mp3",
+        "cover": "imagenes/portadas/id17.png",
+        "duration": 114
+    },
+    {
+        "id": 18,
+        "title": "Vocal Rock",
+        "artist": "The Mountain",
+        "audio": "canciones/the_mountain-vocal-rock-246075.mp3",
+        "cover": "imagenes/portadas/id18.png",
+        "duration": 199
+    },
+    {
+        "id": 19,
+        "title": "Summer Vibes",
+        "artist": "Vibemode",
+        "audio": "canciones/vibemode-summer-vibes-589902.mp3",
+        "cover": "imagenes/portadas/id19.png",
+        "duration": 72
+    },
+    {
+        "id": 20,
+        "title": "Upbeat Coffee's Cold",
+        "artist": "Vibemode",
+        "audio": "canciones/vibemode-upbeat-coffeex27s-cold-545907.mp3",
+        "cover": "imagenes/portadas/id20.png",
+        "duration": 160
+    }
+]
