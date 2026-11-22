@@ -1,0 +1,6 @@
+# Archivo: .gitignore
+# Ignoramos los secretos de las bases de datos para no filtrarlos en repositorios
+docker/.env
+
+# Ignoramos la carpeta de datos privados (JSON) de la asociación
+docker/data/
